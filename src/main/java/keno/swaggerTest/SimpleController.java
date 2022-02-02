@@ -17,4 +17,11 @@ public class SimpleController {
         System.out.println("hello");
         return new ResponseEntity("ok", HttpStatus.OK);
     }
+
+    @Operation(description = "Simple GET api endpoint")
+    @GetMapping("/get2")
+    public ResponseEntity getSimple2() {
+        System.out.println("hello");
+        return new ResponseEntity("ok2", HttpStatus.OK);
+    }
 }
