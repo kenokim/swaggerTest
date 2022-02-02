@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class SimpleController {
 
     @Operation(description = "Simple GET api endpoint")
-    @GetMapping("/getSimple")
+    @GetMapping("/get")
     public ResponseEntity getSimple() {
         System.out.println("hello");
         return new ResponseEntity("ok", HttpStatus.OK);
