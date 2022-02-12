@@ -12,7 +12,7 @@ import org.springframework.web.client.HttpClientErrorException;
 import java.util.NoSuchElementException;
 
 @RestController
-@Tag(name = "Simple Controller")
+@Tag(name = "Simple Controller new")
 public class SimpleController {
 
     @Autowired MemberRepository memberRepository;
